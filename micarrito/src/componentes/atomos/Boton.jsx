@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Boton({ children, manejarClic, onClick, type = 'button', className = '', ...rest }) {
     const handle = manejarClic || onClick;
     return (

@@ -1,9 +1,9 @@
 import ListaHabitos from '../organismos/ListaHabitos';
 
-export default function ListadoHabitos() {
+export default function ListadoHabitos(props) {
   return (
     <div className="page-listado-habitos">
-      <ListaHabitos />
+      <ListaHabitos {...props} />
     </div>
   );
 }
